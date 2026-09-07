@@ -1,0 +1,74 @@
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.task-card {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.inputBox {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.addTaskBtn {
+  padding: 7px;
+  background-color: cornflowerblue;
+  border: none;
+  margin-left: 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.editBtn {
+  padding: 7px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+.deleteBtn {
+  padding: 7px;
+  background-color: rgb(220, 93, 93);
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+.shiftBtn {
+  padding: 7px;
+  background-color: rgb(1, 156, 1);
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: space-between;
+  gap: 1px;
+}
