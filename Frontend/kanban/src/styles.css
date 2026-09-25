@@ -1,0 +1,116 @@
+:root {
+  /* =========================
+     Colors
+  ========================= */
+
+  --background: #FFF8ED;
+
+  --surface: #FFFFFF;
+  --surface-muted: #F7F5F0;
+
+  --text-primary: #172B3A;
+  --text-secondary: #64748B;
+  --text-muted: #94A3B8;
+
+  --brand-primary: #F59E42;
+  --brand-primary-hover: #E87928;
+  --brand-secondary: #F9C74F;
+
+  --navy: #123B63;
+  --navy-dark: #0B2945;
+
+  --border: #E9E5DD;
+
+  --success: #3FA66B;
+  --danger: #D95C5C;
+
+
+  /* =========================
+     Typography
+  ========================= */
+
+  --font-primary: "Plus Jakarta Sans", sans-serif;
+
+  /* Font sizes */
+  --font-size-display: 2.75rem;   /* 44px - hero/display heading */
+  --font-size-h1: 2rem;           /* 32px - page heading */
+  --font-size-h2: 1.5rem;         /* 24px - section heading */
+  --font-size-h3: 1.125rem;       /* 18px - card/column heading */
+  --font-size-subtitle: 1rem;      /* 16px */
+  --font-size-body: 0.9375rem;    /* 15px */
+  --font-size-small: 0.8125rem;   /* 13px */
+  --font-size-caption: 0.75rem;   /* 12px */
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Line heights */
+  --line-height-tight: 1.2;
+  --line-height-heading: 1.3;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+
+  /* =========================
+     Typography Roles
+  ========================= */
+
+  /* Main headings */
+  --heading-color: var(--text-primary);
+  --heading-weight: var(--font-weight-bold);
+  --heading-line-height: var(--line-height-tight);
+
+  /* Subtitles / supporting headings */
+  --subtitle-color: var(--text-secondary);
+  --subtitle-weight: var(--font-weight-regular);
+  --subtitle-line-height: var(--line-height-relaxed);
+
+  /* Body content */
+  --body-color: var(--text-primary);
+  --body-weight: var(--font-weight-regular);
+  --body-line-height: var(--line-height-normal);
+
+  /* Muted/helper text */
+  --helper-color: var(--text-muted);
+  --helper-weight: var(--font-weight-regular);
+
+  /* Button text */
+  --button-font-size: 0.875rem;   /* 14px */
+  --button-font-weight: var(--font-weight-semibold);
+  --button-line-height: 1.2;
+
+  /* Input text */
+  --input-font-size: 0.875rem;    /* 14px */
+  --input-font-weight: var(--font-weight-regular);
+  --input-color: var(--text-primary);
+  --input-placeholder-color: var(--text-muted);
+
+  /* Labels */
+  --label-font-size: 0.8125rem;   /* 13px */
+  --label-font-weight: var(--font-weight-semibold);
+  --label-color: var(--text-secondary);
+
+  /* Navigation */
+  --nav-font-size: 0.875rem;
+  --nav-font-weight: var(--font-weight-medium);
+
+  /* =========================
+   Spacing System
+   Base unit: 8px
+========================= */
+
+--space-1: 0.5rem;    /* 8px */
+--space-2: 1rem;      /* 16px */
+--space-3: 1.5rem;    /* 24px */
+--space-4: 2rem;      /* 32px */
+--space-5: 2.5rem;    /* 40px */
+--space-6: 3rem;      /* 48px */
+--space-7: 3.5rem;     /* 56px */
+--space-8: 4rem;       /* 64px */
+--space-9: 4.5rem;     /* 72px */
+--space-10: 5rem;      /* 80px */
+}
