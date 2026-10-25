@@ -9,12 +9,12 @@ type newUserData={
 }
 
 async function addNewUser(data:newUserData){
-  const response = await fetch('http://localhost:4000/signin',{
+  const response = await fetch('http://localhost:4000/api/mobile/signin',{
     method:'POST',
     headers: {
       "Content-Type": "application/json",
     },
-   credentials: "include",
+    credentials: "include",
     body:JSON.stringify(data)
   });
 
@@ -22,12 +22,12 @@ async function addNewUser(data:newUserData){
 }
 
 async function handleLogin(data:newUserData){
-   const response = await fetch('http://localhost:4000/login',{
+   const response = await fetch('http://localhost:4000/api/mobile/login',{
     method:'POST',
     headers: {
       "Content-Type": "application/json",
     },
-   credentials: "include",
+    credentials: "include",
     body:JSON.stringify(data)
   });
 
