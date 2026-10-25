@@ -23,7 +23,6 @@ export default function LandingPage(){
 
     const handleLogin=(e:React.SubmitEvent<HTMLFormElement>)=>{
         e.preventDefault();
-        console.log("in hanle login")
 
         const form=e.target;
          const formData=new FormData(form);
